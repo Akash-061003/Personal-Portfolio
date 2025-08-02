@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+
+}
+
+/* box1*/
+.nav-logo{
+    background-image: url("./images/flipkart_logo.svg");
+    background-size: auto;
+    height: 40px;
+    width: 160px;
+}
+
+.border:hover{
+    cursor: pointer;
+}
+
+/*box2*/
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+.search-icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+}
+.search-input{
+    height: 40px;
+    width: 560px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+}
+ 
+/* box3*/
+.nav-login{
+    height: 40px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+   
+}
+#select{
+    border: none;
+}
+
+/*box4*/
+.nav-cart{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    font-size: 1.2rem;
+}
+
+/*box5*/
+.nav-seller{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    font-size: 1rem;
+}
+
+
+/*box6*/
+.nav-menu{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+
+/*panel*/
+
+.panel{
+    height: 160px;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.panel-all{
+    height: 160px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.body{
+    background-color: #f5f5f5;
+}
+.pic1{
+    height: 160px;
+    background-image: url("./images/pic1.webp");
+    background-size: cover;
+    
+}
+.sec{
+    height: 250px;
+    background-color: white;
+    margin: 20px;
+}
+.sec h1{
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.pics{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.sec5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.sec6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.sec1:hover{
+    cursor: pointer;
+}
+.sec2:hover{
+    cursor: pointer;
+}
+.sec3:hover{
+    cursor: pointer;
+}
+.sec4:hover{
+    cursor: pointer;
+}
+.sec5:hover{
+    cursor: pointer;
+}
+.sec6:hover{
+    cursor: pointer;
+}
+.foot{
+    height: 380px;
+    background-color: black;
+   
+}
+
+.info{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+   
+}
+.same{
+    height: 140px;
+    width: 300px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+
+}
+.p1{
+    margin-bottom: 10px;
+    color: #878787;
+}
+
+.last-bar{
+    height: 90px;
+    border-top: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+   
+}
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.d img{
+   height: 80 px;
+   width: 200px;
+  font-size: large;
+}
