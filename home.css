@@ -292,14 +292,17 @@ span{
 }
 .project-layer a{
     display: inline-flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     background-color: white;
     border-radius: 50%;
     margin-top: 1rem;
     text-decoration: none;
+    color: black;
+    gap: 0.2rem;
 }
 .project-layer a i{
     font-size: 2rem;
@@ -455,4 +458,5 @@ span{
     html{
         font-size: 22%;
     }
+
 }
